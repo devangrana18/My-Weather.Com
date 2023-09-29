@@ -11,6 +11,9 @@ const temperatureElement = document.querySelector(".temperature");
 const errorElement = document.querySelector(".error");
 const weatherElement = document.querySelector(".weather");
 
+
+
+
 function getWeatherIcon(weatherCode) {
     if (weatherCode >= 200 && weatherCode < 300) {
         return "images/thunderstorm.png";
